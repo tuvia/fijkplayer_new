@@ -21,7 +21,7 @@
 //SOFTWARE.
 //
 
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_new/fijkplayer_new.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

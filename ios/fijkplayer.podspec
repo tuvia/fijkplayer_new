@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'fijkplayer'
+  s.name             = 'fijkplayer_new'
   s.version          = '0.10.1'
   s.summary          = 'Flutter plugin for ijkplayer'
   s.description      = <<-DESC

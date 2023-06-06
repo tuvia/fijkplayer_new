@@ -24,7 +24,7 @@
 import 'dart:async';
 import 'dart:collection';
 
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_new/fijkplayer_new.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 

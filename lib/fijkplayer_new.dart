@@ -21,7 +21,7 @@
 //SOFTWARE.
 //
 
-library fijkplayer;
+library fijkplayer_new;
 
 import 'dart:async';
 import 'dart:collection';

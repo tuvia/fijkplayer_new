@@ -20,7 +20,7 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
-part of fijkplayer;
+part of fijkplayer_new;
 
 class FijkPlugin {
   /// Make constructor private
