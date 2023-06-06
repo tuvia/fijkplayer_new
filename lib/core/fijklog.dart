@@ -28,8 +28,14 @@ class FijkLogLevel {
   final int level;
   final String name;
 
+/*
   const FijkLogLevel._(int l, String n)
       : assert(l != null),
+        level = l,
+        name = n;
+*/
+
+  const FijkLogLevel._(int l, String n) :
         level = l,
         name = n;
 
@@ -84,7 +90,7 @@ class FijkLog {
   /// If you care about app boot performance,
   /// you should call this method as late as possiable. Call this method before the first time you consturctor new [FijkPlayer]
   static setLevel(final FijkLogLevel level) {
-    assert(level != null);
+    //assert(level != null);
     _level = level;
     log(FijkLogLevel.Silent, "set log level $level", "fijk");
     FijkPlugin._setLogLevel(level.level).then((_) {

@@ -46,7 +46,7 @@ class FijkVolumeEvent {
           hashCode == other.hashCode);
 
   @override
-  int get hashCode => hashValues(vol, sui, type);
+  int get hashCode => Object.hash(vol, sui, type);
 }
 
 class _VolumeValueNotifier extends ValueNotifier<FijkVolumeEvent> {
@@ -240,7 +240,8 @@ class _FijkVolumeWatcherState extends State<FijkVolumeWatcher> {
       var entry = OverlayEntry(builder: (_) => widget);
       _entry = entry;
       var overlay = Overlay.of(context);
-      if (overlay != null) overlay.insert(entry);
+      //if (overlay != null) overlay.insert(entry);
+      overlay.insert(entry);
     }
     _timer = Timer(const Duration(milliseconds: 800), () {
       _entry?.remove();

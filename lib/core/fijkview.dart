@@ -384,7 +384,7 @@ class __InnerFijkViewState extends State<_InnerFijkView> {
 
   void _voidValueListener() {
     var binding = WidgetsBinding.instance;
-    if (binding != null)
+    //if (binding != null)
       binding.addPostFrameCallback((_) => _fijkValueListener());
   }
 
